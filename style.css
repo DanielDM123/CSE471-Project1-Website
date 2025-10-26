@@ -1,0 +1,16 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier;
+}
+
+nav {
+    position: sticky;
+    padding: 5px;
+    background-color: aquamarine;
+    border: 2px solid black;
+}
+
+p{
+    margin: 5px;
+    padding: 5px;
+}
