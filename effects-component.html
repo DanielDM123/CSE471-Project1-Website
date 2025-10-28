@@ -19,10 +19,60 @@
     </nav>
 
     <artcle>
-        <h4>Here is how <u>Daniel Mar</u> implemented the Effects Component:</h4>
+        <h3>Here is how <u>Daniel Mar</u> implemented the Effects Component</h3>
         <!-- Add report here -->
 
+        <h4>Grading Elements:</h4>
+        <ol>
+            <li>Compentent Passess Audio</li>    
+            <li>4 Effects</li>
+            <li>Controllable Effects Send</li>
+        </ol>
+
+        <hr>
+
+        <!-- Compoent Passes Audio -->
+        <h4 class="centerText"><u>Compoent Passes Audio</u></h4>
+        <p>The main way I passed in audio was in the CSynthesizer::Generate() function. Before that, the first thing I did was initialize each of the effect objects in CSynthesizer's header file. Then, during phase 1 when we are configuring the instruments, I would assign each instrument their effect read from the score file. Afterwards during phase 3, shortly after instrument->Generate() and we set frame[i] to instrument->Frame[i], I have a set of if statements that would check the effect value for the instrument, and apply that effect. 
+        </p>
+
+        <hr>
+
+        <h3 class="centerText"><u>4 Effects</u></h3>
+
+        <!-- Reverb Effect -->
+         <h4>Reverberation Effect:</h4>
+         <p>I implemented this very similarly to the transform equations from step 4. First, I had created a circular queue in the CReverberation class. I also created a Process() function with parameters double* frameIn and double* frameOut. frameIn is the input frame that holds the unmodified frequency, and likewise, frameOut is the output frame where the function will store the modified frequency.  
+        </p>
+        <p>
+        Afterwards in the Process() function, I would first update the read location pointer. The main transform equation I used was “y = x + 0.4 * y(t-4410)”, so I would first read from the queue and input, then multiply the queue output with a weight of 0.4, and then add that with the input frame. Finally, I would store the OUTPUT frame into the queue and move the write location pointer.  
+        </p>
+
+        <!-- Flanging Effect -->
+         <h4>Flanging Effect:</h4>
+         <p>This is implemented just like reverberation above and the transfer equations from step 4. I also created a circular queue in CFlanging, and had a Process() function. The first thing the Process() function would do is update the read location pointer. The main transfer equation was the exact same, “y = x + 0.4 * y(t-4410)”, so it was the same process as above. The main difference was that I would store the INPUT frame into the circular queue instead of the output frame.</p>
+
+        <!-- Compression Effect -->
+         <h4>Compression Effect:</h4>
+         <p></p>
+
+        <!-- Noise Gate Effect -->
+         <h4>Noise Gate Effect:</h4>
+         <p></p>
+
+        <hr>
+
+        <h3 class="centerText"><u>Controllable Effects Send</u></h3>
+
+        <p></p>
+
+
+        
     </artcle>
+    
+    <footer>
+        footer
+    </footer>
 
 </body>
 </html>
