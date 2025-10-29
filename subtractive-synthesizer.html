@@ -21,7 +21,39 @@
     <artcle>
         <h4>Here is how <u>Daniel Wills</u> implemented the Subtractive Synthesizer:</h4>
         <!-- Add report here -->
-        
+
+        <h4>The subtractive synthesizer component uses the following three types of waves:</h4>
+        <ul>
+            <li>Square Waves</li>
+            <li>Sawtooth Waves</li>
+            <li>Triangle Waves</li>
+        </ul>
+
+        <br>
+
+        <p>The waves are implemented as bandwidth limited waves. This means that the waves are stored in tables. Specifically, the tables contain 256 samples per wave. The waves samples have been generated beforehand, and they are not mathematically calculated during the runtime of the program.</p>
+
+        <p>The waves are implemented with a Reson filter. The Reson filter has an emphasized frequency of 0.055 and a frequency bandwidth of 0.04. These parameters are used to approximate the "Moog" sound.</p>
+
+        <hr>
+
+        <p>This component also supports polyphony. It supports playing multiple notes from the same wave type, and multiple notes from different wave types at the same time.</p>
+
+        <p>An ADSR (attack, decay, sustain, release) envelope is used to control the noise level of notes to avoid any popping sounds. The envelope uses the following parameters:</p>
+        <ul>
+            <li>Attack time: 0.04 seconds</li>
+            <li>Decay time: 0.04 seconds</li>
+            <li>Sustain amplitude: 0.7</li>
+            <li>Release time: 0.04</li>
+        </ul>
+
+        <br>
+
+        <p>In situations where the duration of a note is less than the sum of the attack, decay, and release times of the ADSR envelope, then a standard attack release noise envelope is used instead. This allows popping sounds to be avoided even for notes with very short durations.</p>
+
+        <p>A filter envelope is also implemented. Each note's frequency is tied to the envelope that controls its volume characteristic. This allows the notes frequency to fluctuate corresponding to the volume controlled by the envelope.</p>
+
+
     </artcle>
 
 
