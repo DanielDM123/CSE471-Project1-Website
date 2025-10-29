@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<score bpm="50" beatspermeasure="4">
+
+    <instrument instrument="SquareWaveInstrument">
+
+          <note measure="2" beat="3" duration="1" note="F#4"/>
+
+          <note measure="3" beat="1" duration="0.5" note="G#5" effect="noise_gate" />
+          <note measure="3" beat="1" duration="0.5" note="A#4" effect="noise_gate" />
+          <note measure="3" beat="1.5" duration="0.5" note="G#4" effect="noise_gate" />
+          <note measure="3" beat="2.083" duration="0.417" note="D#5" effect="noise_gate" />
+          <note measure="3" beat="2.167" duration="0.333" note="G#5" effect="noise_gate" />
+          <note measure="3" beat="2.75" duration="0.25" note="F5" effect="noise_gate" />
+          <note measure="3" beat="3" duration="0.5" note="F4" effect="noise_gate" />
+
+          <note measure="3" beat="3.5" duration="0.5" note="C#5" effect="noise_gate" />
+          <note measure="3" beat="4" duration="0.5" note="G#4" effect="noise_gate" />
+          <note measure="3" beat="4.5" duration="0.5" note="D#4" effect="noise_gate" />
+
+          <note measure="4" beat="2" duration="0.5" note="F#3"/>
+          <note measure="4" beat="2.5" duration="0.5" note="G#3"/>
+
+          <note measure="5" beat="1" duration="1" note="F4" effect="flanging" />
+          <note measure="5" beat="1" duration="2" note="C#3" effect="flanging" />
+          <note measure="5" beat="1" duration="2" note="G#3" effect="flanging" />
+          <note measure="5" beat="2" duration="0.5" note="G#5" effect="flanging" />
+
+          <note measure="5" beat="2.5" duration="0.5" note="A#5" effect="flanging" />
+          <note measure="5" beat="2.5" duration="0.5" note="A#4" effect="flanging" />
+
+          <note measure="5" beat="3" duration="1" note="G#4" effect="flanging" />
+          <note measure="5" beat="3" duration="1" note="D#4" effect="flanging" />
+          <note measure="5" beat="3" duration="2" note="C3" effect="flanging" />
+
+          <note measure="5" beat="4" duration="1" note="D#5" effect="flanging" />
+          <note measure="5" beat="4" duration="1" note="G#4" effect="flanging" />
+
+          <note measure="6" beat="1" duration="1" note="C#5"/>
+          <note measure="6" beat="1" duration="1" note="C#4"/>
+          <note measure="6" beat="2" duration="0.5" note="G#4"/>
+
+          <note measure="6" beat="3" duration="2" note="G#3"/>
+          <note measure="6" beat="3" duration="2" note="F3"/>
+
+          <note measure="6" beat="4" duration="1" note="G#4"/>
+
+          <note measure="7" beat="1" duration="1" note="F#3" effect="flanging,compressor" />
+          <note measure="7" beat="1" duration="1" note="C#3" effect="flanging" />
+
+          <note measure="7" beat="1.083" duration="0.917" note="D#5" effect="flanging,compressor" />
+          <note measure="7" beat="1.167" duration="0.833" note="A#5" effect="flanging,compressor" />
+          <note measure="7" beat="2" duration="1" note="F#2" effect="flanging,compressor" />
+
+          <note measure="7" beat="2.417" duration="0.083" note="G#5" effect="flanging,compressor" />
+
+          <note measure="7" beat="3" duration="1.083" note="C#3" effect="flanging,compressor" />
+  
+          <note measure="7" beat="3.5" duration="0.5" note="G#5" effect="flanging,compressor" />
+          <note measure="7" beat="4" duration="0.5" note="C#5" effect="flanging,compressor" />
+          <note measure="7" beat="4" duration="0.5" note="C#4" effect="flanging,compressor" />
+
+          <note measure="7" beat="4.083" duration="0.917" note="C#3" effect="flanging" />
+  
+          <note measure="7" beat="4.75" duration="0.25" note="F5" effect="flanging" />
+
+          <note measure="8" beat="1" duration="1" note="F#3" effect="compressor" />
+          <note measure="8" beat="1" duration="2" note="C#3" effect="compressor" />
+
+          <note measure="8" beat="3" duration="0.5" note="G#3" effect="compressor" />
+          <note measure="8" beat="3" duration="0.833" note="F5" effect="compressor" />
+
+          <note measure="8" beat="4" duration="0.5" note="C4" effect="compressor" />
+
+
+          <note measure="9" beat="1" duration="1" note="G#3" effect="flanging" />
+          <note measure="9" beat="1" duration="1" note="F5" effect="flanging" />
+          <note measure="9" beat="1" duration="1" note="C#5" effect="flanging" />
+          <note measure="9" beat="1" duration="1" note="F4" effect="flanging" />
+
+          <note measure="9" beat="2" duration="0.5" note="G#5" effect="flanging" />
+          <note measure="9" beat="2" duration="0.5" note="G#4" effect="flanging" />
+
+
+          <note measure="9" beat="2.5" duration="0.5" note="A#5" effect="flanging" />
+          <note measure="9" beat="3" duration="1" note="G#3" effect="flanging" />
+
+          <note measure="9" beat="3" duration="1" note="D#5" effect="flanging" />
+          <note measure="9" beat="3" duration="1" note="G#4" effect="flanging" />
+          <note measure="9" beat="4" duration="0.5" note="D#4" effect="flanging" />
+
+          <note measure="9" beat="4.5" duration="0.5" note="C#4" effect="flanging" />
+
+          <note measure="10" beat="1" duration="0.5" note="C#4"/>
+          <note measure="10" beat="1" duration="2" note="A#2"/>
+
+          <note measure="10" beat="2" duration="0.5" note="C5"/>
+          <note measure="10" beat="2.5" duration="0.5" note="C#5"/>
+
+          <note measure="10" beat="3" duration="1" note="G#3"/>
+          <note measure="10" beat="3" duration="1" note="C5"/>
+
+          <note measure="10" beat="4" duration="1" note="G#4"/>
+          <note measure="10" beat="4" duration="1" note="C5"/>
+
+          <note measure="11" beat="1.5" duration="0.5" note="C#5"/>
+          <note measure="11" beat="2.5" duration="0.5" note="F#4"/>
+          <note measure="11" beat="2.5" duration="0.5" note="G#4"/>
+
+          <note measure="11" beat="3" duration="0.5" note="D#5"/>
+          <note measure="11" beat="4.5" duration="0.5" note="G#4"/>
+
+
+          <note measure="12" beat="1" duration="0.5" note="C#3"/>
+          <note measure="12" beat="1" duration="1" note="D#5"/>
+
+          <note measure="12" beat="1.5" duration="0.5" note="G#3"/>
+
+          <note measure="12" beat="3.5" duration="0.5" note="C6"/>
+
+          <note measure="12" beat="4" duration="0.5" note="D#4"/>
+          <note measure="12" beat="4.5" duration="0.5" note="G#4"/>
+
+
+          <note measure="13" beat="1" duration="0.5" note="C#3"/>
+          <note measure="13" beat="1" duration="2" note="G#5"/>
+          <note measure="13" beat="1.5" duration="0.5" note="G#3"/>
+          <note measure="13" beat="2" duration="0.5" note="C#4"/>
+          <note measure="13" beat="2.5" duration="0.5" note="D#4"/>
+          <note measure="13" beat="3" duration="2" note="G#4"/>
+          <note measure="13" beat="3" duration="2" note="G#5"/>
+
+    </instrument>
+
+
+    <instrument instrument="SawtoothWaveInstrument">
+
+          <note measure="2" beat="4" duration="1" note="D#5"/>
+  
+          <note measure="3" beat="2" duration="0.5" note="C#5" effect="noise_gate" />
+          <note measure="3" beat="2.5" duration="0.25" note="F#5" effect="noise_gate" />
+          <note measure="3" beat="3" duration="0.5" note="D#5" effect="noise_gate" />
+  
+          <note measure="4" beat="1" duration="0.5" note="F#2"/>
+          <note measure="4" beat="1.5" duration="0.5" note="C#3"/>
+          <note measure="4" beat="3" duration="2" note="C#4"/>
+
+          <note measure="5" beat="2" duration="0.5" note="G#4" effect="compressor" />
+
+          <note measure="5" beat="3" duration="1" note="G#5" effect="compressor" />
+          <note measure="5" beat="3" duration="1" note="D#5" effect="compressor" />
+
+
+          <note measure="6" beat="1" duration="1" note="F4"/>
+          <note measure="6" beat="1" duration="2" note="A#2"/>
+          <note measure="6" beat="1" duration="2" note="C#3"/>
+
+          <note measure="6" beat="2" duration="0.5" note="C5"/>
+
+          <note measure="6" beat="2.5" duration="0.5" note="C#5"/>
+          <note measure="6" beat="3" duration="1" note="C5"/>
+          <note measure="6" beat="3" duration="1" note="F4"/>
+
+          <note measure="6" beat="4" duration="1" note="G#5"/>
+
+          <note measure="7" beat="1" duration="1" note="A#4"/>
+          <note measure="7" beat="2" duration="1" note="C#3"/>
+
+          <note measure="7" beat="2.5" duration="1" note="A#5"/>
+          <note measure="7" beat="3" duration="1" note="F3"/>
+
+          <note measure="7" beat="3.5" duration="0.5" note="D#5"/>
+          <note measure="7" beat="4.5" duration="0.25" note="C#5"/>
+
+
+
+          <note measure="8" beat="1" duration="0.5" note="C#5" effect="compressor" />
+          <note measure="8" beat="1" duration="0.5" note="F#5" effect="compressor" />
+
+          <note measure="8" beat="1.5" duration="0.5" note="F5" effect="compressor" />
+          <note measure="8" beat="2" duration="0.083" note="C#5" effect="compressor" />
+          <note measure="8" beat="2.083" duration="0.417" note="D#5" effect="compressor" />
+          <note measure="8" beat="2.5" duration="0.5" note="C#5" effect="compressor" />
+
+
+          <note measure="8" beat="3" duration="0.833" note="C#5" effect="compressor" />
+          <note measure="8" beat="3" duration="0.833" note="F4" effect="compressor" />
+          <note measure="8" beat="3.5" duration="0.5" note="A#2" effect="compressor" />
+          <note measure="8" beat="3.833" duration="0.083" note="F#5" effect="compressor" />
+          <note measure="8" beat="3.917" duration="0.083" note="F5" effect="compressor" />
+          <note measure="8" beat="4" duration="0.5" note="C3" effect="compressor" />
+
+          <note measure="8" beat="4" duration="1" note="D#5"/>
+
+          <note measure="8" beat="4.5" duration="0.5" note="G#2"/>
+
+          <note measure="9" beat="2" duration="1" note="G#3"/>
+          <note measure="9" beat="2.5" duration="0.5" note="A#4"/>
+
+          <note measure="9" beat="3" duration="1" note="C4"/>
+          <note measure="9" beat="3" duration="1" note="G#5"/>
+          <note measure="9" beat="4" duration="1" note="G#3"/>
+          <note measure="9" beat="4.5" duration="0.5" note="F4"/>
+
+
+
+          <note measure="10" beat="1" duration="0.5" note="A#3"/>
+          <note measure="10" beat="1" duration="2" note="F3"/>
+          <note measure="10" beat="1.5" duration="0.5" note="C#4"/>
+          <note measure="10" beat="2" duration="0.5" note="C6"/>
+
+          <note measure="10" beat="2.5" duration="0.5" note="C#6"/>
+
+
+          <note measure="10" beat="3" duration="1" note="F5"/>
+          <note measure="10" beat="3" duration="1" note="C6"/>
+
+          <note measure="10" beat="4" duration="1" note="F5"/>
+          <note measure="10" beat="4" duration="1" note="G#5"/>
+
+          <note measure="10" beat="4" duration="1" note="G#2"/>
+
+
+          <note measure="11" beat="1" duration="0.5" note="D#5"/>
+          <note measure="11" beat="1" duration="0.5" note="G#4"/>
+          <note measure="11" beat="1" duration="1.5" note="F#2"/>
+
+
+          <note measure="11" beat="2" duration="0.5" note="G#4"/>
+
+          <note measure="11" beat="2.5" duration="0.5" note="C#3"/>
+          <note measure="11" beat="2.5" duration="0.5" note="F#2"/>
+
+          <note measure="11" beat="2.583" duration="0.417" note="F5"/>
+          <note measure="11" beat="2.583" duration="0.417" note="C#5"/>
+
+          <note measure="11" beat="3" duration="1.5" note="G#3"/>
+          <note measure="11" beat="3" duration="2" note="G#2"/>
+
+          <note measure="11" beat="3.5" duration="0.5" note="C#5"/>
+          <note measure="11" beat="4" duration="0.5" note="G#4"/>
+          <note measure="11" beat="4.5" duration="0.5" note="D#5"/>
+
+          <note measure="12" beat="1" duration="0.5" note="C#4"/>
+
+          <note measure="12" beat="2" duration="0.5" note="C#4"/>
+          <note measure="12" beat="2.5" duration="0.5" note="D#4"/>
+          <note measure="12" beat="3" duration="0.5" note="G#4"/>
+
+          <note measure="12" beat="3.5" duration="0.5" note="C#4"/>
+          <note measure="12" beat="4" duration="0.5" note="D#5"/>
+          <note measure="12" beat="4.5" duration="0.5" note="C#5"/>
+
+    </instrument>
+
+
+
+    <instrument instrument="TriangleWaveInstrument">
+
+          <note measure="1" beat="1.05" duration="0.5" note="C#1" effect="reverb" />
+          <note measure="1" beat="1.05" duration="1" note="F2" effect="reverb" />
+          <note measure="1" beat="1.5" duration="0.5" note="F1" effect="reverb" />
+          <note measure="1" beat="2" duration="0.5" note="G#1" effect="reverb" />
+          <note measure="1" beat="2.5" duration="0.5" note="F1" effect="reverb" />
+          <note measure="1" beat="2.5" duration="0.5" note="F2" effect="reverb" />
+          <note measure="1" beat="3" duration="0.5" note="F#2" effect="reverb" />
+          <note measure="1" beat="3" duration="0.5" note="D#1" effect="reverb" />
+          <note measure="1" beat="3.5" duration="0.5" note="F#1" effect="reverb" />
+          <note measure="1" beat="3.5" duration="0.5" note="F2" effect="reverb" />
+          <note measure="1" beat="4" duration="0.5" note="C#2" effect="reverb" />
+          <note measure="1" beat="4" duration="0.5" note="F#2" effect="reverb" />
+          <note measure="1" beat="4.5" duration="0.5" note="F#1" effect="reverb" />
+
+          <note measure="1" beat="1.05" duration="0.5" note="C#3"/>
+          <note measure="1" beat="1.05" duration="1" note="F4"/>
+          <note measure="1" beat="1.5" duration="0.5" note="F3"/>
+          <note measure="1" beat="2" duration="0.5" note="G#3" />
+          <note measure="1" beat="2.5" duration="0.5" note="F3" />
+          <note measure="1" beat="2.5" duration="0.5" note="F4"  />
+          <note measure="1" beat="3" duration="0.5" note="F#4"  />
+          <note measure="1" beat="3" duration="0.5" note="D#3"  />
+          <note measure="1" beat="3.5" duration="0.5" note="F#3"  />
+          <note measure="1" beat="3.5" duration="0.5" note="F4"  />
+          <note measure="1" beat="4" duration="0.5" note="C#4"  />
+          <note measure="1" beat="4" duration="0.5" note="F#4"  />
+          <note measure="1" beat="4.5" duration="0.5" note="F#3"  />
+
+          <note measure="2" beat="1" duration="0.5" note="F3"/>
+          <note measure="2" beat="1" duration="0.5" note="G#5"/>
+          <note measure="2" beat="1" duration="0.5" note="G#4"/>
+          <note measure="2" beat="1.5" duration="0.5" note="C#5"/>
+          <note measure="2" beat="1.5" duration="0.5" note="G#3"/>
+          <note measure="2" beat="2" duration="0.5" note="C5"/>
+          <note measure="2" beat="2" duration="0.5" note="D#4"/>
+          <note measure="2" beat="2.5" duration="0.5" note="C#5"/>
+          <note measure="2" beat="2.5" duration="0.5" note="G#3"/>
+          <note measure="2" beat="3" duration="1" note="F5"/>
+          <note measure="2" beat="3" duration="1" note="A#4"/>
+          <note measure="2" beat="3" duration="1" note="C#5"/>
+          <note measure="2" beat="3" duration="2" note="C#4"/>
+          <note measure="2" beat="3" duration="2" note="F#3"/>
+          <note measure="2" beat="3" duration="2" note="A#3"/>
+
+          <note measure="3" beat="1" duration="0.5" note="G#3" effect="noise_gate" />
+          <note measure="3" beat="1" duration="0.5" note="A#2" effect="noise_gate" />
+          <note measure="3" beat="1.5" duration="0.5" note="G#2" effect="noise_gate" />
+          <note measure="3" beat="2" duration="0.5" note="C#3" effect="noise_gate" />
+          <note measure="3" beat="2.083" duration="0.417" note="D#3" effect="noise_gate" />
+          <note measure="3" beat="2.167" duration="0.333" note="G#3" effect="noise_gate" />
+          <note measure="3" beat="2.75" duration="0.25" note="F3" effect="noise_gate" />
+          <note measure="3" beat="2.5" duration="0.25" note="F#3" effect="noise_gate" />
+
+          <note measure="3" beat="3" duration="2" note="G#3" effect="noise_gate" />
+
+          <note measure="5" beat="1" duration="1" note="F5" effect="compressor" />
+          <note measure="5" beat="1" duration="1" note="C#5" effect="compressor" />
+
+          <note measure="5" beat="3" duration="2" note="G#3" effect="compressor" />
+          <note measure="5" beat="4" duration="1" note="D#4" effect="compressor" />
+
+          <note measure="6" beat="1" duration="2" note="F3"/>
+          <note measure="6" beat="1" duration="2" note="G#3"/>
+          <note measure="6" beat="3" duration="2" note="G#2"/>
+
+          <note measure="7" beat="1" duration="1" note="F#2" effect="flanging" />
+          <note measure="7" beat="3" duration="1" note="F2" effect="flanging" />
+          <note measure="7" beat="4" duration="1" note="F2" effect="flanging" />
+
+          <note measure="8" beat="1" duration="2" note="F#2"/>
+          <note measure="8" beat="3" duration="0.5" note="G#2"/>
+
+          <note measure="8" beat="4" duration="1" note="D#4"/>
+
+          <note measure="9" beat="1" duration="2" note="C#3"/>
+
+          <note measure="9" beat="3" duration="1" note="C3"/>
+
+          <note measure="9" beat="4" duration="1" note="C3"/>
+
+          <note measure="10" beat="1" duration="2" note="G#3"/>
+
+          <note measure="10" beat="3" duration="1" note="G#2"/>
+          <note measure="10" beat="3" duration="1" note="F3"/>
+          <note measure="10" beat="4" duration="1" note="F3"/>
+
+          <note measure="11" beat="1" duration="1.5" note="F#3"/>
+          <note measure="11" beat="2.5" duration="0.5" note="F#3"/>
+
+          <note measure="11" beat="3" duration="2" note="D#3"/>
+          <note measure="11" beat="4.5" duration="0.5" note="D#4"/>
+
+          <note measure="12" beat="1" duration="0.5" note="C#3"/>
+          <note measure="12" beat="1" duration="1" note="D#5"/>
+  
+          <note measure="12" beat="1.5" duration="0.5" note="G#2"/>
+
+          <note measure="12" beat="2" duration="0.5" note="C#2"/>
+          <note measure="12" beat="2.5" duration="0.5" note="D#2"/>
+          <note measure="12" beat="3" duration="0.5" note="G#2"/>
+
+          <note measure="12" beat="3.5" duration="0.5" note="C#3"/>
+          <note measure="12" beat="4" duration="0.5" note="D#2"/>
+          <note measure="12" beat="4.5" duration="0.5" note="C#2"/>
+
+
+          <note measure="13" beat="1" duration="0.5" note="C#1"/>
+          <note measure="13" beat="1" duration="2" note="G#3"/>
+          <note measure="13" beat="1.5" duration="0.5" note="G#1"/>
+          <note measure="13" beat="2" duration="0.5" note="C#2"/>
+          <note measure="13" beat="2.5" duration="0.5" note="D#2"/>
+          <note measure="13" beat="3" duration="2" note="G#2"/>
+          <note measure="13" beat="3" duration="2" note="G#3"/>
+
+
+    </instrument>
+
+
+
+</score>
