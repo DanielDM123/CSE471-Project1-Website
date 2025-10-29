@@ -33,7 +33,7 @@
 
         <!-- Compoent Passes Audio -->
         <h3 class="centerText"><u>Compoent Passes Audio</u></h3>
-        <p>The main way I passed in audio was in the CSynthesizer::Generate() function. Before that, the first thing I did was initialize each of the effect objects in CSynthesizer's header file. Then, during phase 1 when we are configuring the instruments, I would assign each instrument their effect read from the score file. Afterwards during phase 3, shortly after instrument->Generate() and we set frame[i] to instrument->Frame[i], I have a set of if statements that would check the effect value for the instrument, and apply that effect. 
+        <p>The main way I passed in audio was in the CSynthesizer::Generate() function. Before that, the first thing I did was initialize each of the effect objects in CSynthesizer's header file. Then, during phase 1, of Generate() funciton when we are configuring the instruments, I would assign each instrument their effect that it read from the score file. Afterwards during phase 3, shortly after calling instrument->Generate(), I have a set of if statements that would check the effect value for the instrument, and apply that effect. 
         </p>
 
         <hr>
@@ -45,21 +45,21 @@
          <p>I implemented this very similarly to the transform equations from step 4. First, I had created a circular queue in the CReverberation class. I also created a Process() function with parameters double* frameIn and double* frameOut. frameIn is the input frame that holds the unmodified frequency, and likewise, frameOut is the output frame where the function will store the modified frequency.  
         </p>
         <p>
-        Afterwards in the Process() function, I would first update the read location pointer. The main transform equation I used was “y = x + 0.4 * y(t-4410)”, so I would first read from the queue and input, then multiply the queue output with a weight of 0.4, and then add that with the input frame. Finally, I would store the OUTPUT frame into the queue and move the write location pointer.  
+        Afterwards in the Process() function, I would first update the read location pointer. The main transform equation I used was “y = x + 0.4 * y(t-4410)”. It would first read from the INPUT queue. Then it would multiply the queue output with a weight of 0.4, and add that with the input frame. Finally, I would store the <b>OUTPUT</b> frame into the queue and move the write location pointer.  
         </p>
 
         <!-- Flanging Effect -->
          <h4>Flanging Effect:</h4>
-         <p>This is implemented just like reverberation above and the transfer equations from step 4. I also created a circular queue in CFlanging, and had a Process() function. The first thing the Process() function would do is update the read location pointer. The main transfer equation was the exact same, “y = x + 0.4 * y(t-4410)”, so it was the same process as above. The main difference was that I would store the INPUT frame into the circular queue instead of the output frame.</p>
+         <p>This is implemented just like reverberation class mentioned above and the transfer equations from step 4. I also created a circular queue in CFlanging, and had a Process() function. The first thing the Process() function would do is update the read location pointer. The main transfer equation was the exact same, “y = x + 0.4 * y(t-4410)”, so it was the same process as above. The main difference was that I would store the <b>INPUT</b> frame into the circular queue instead of the output frame.</p>
 
         <!-- Compression Effect -->
          <h4>Compression Effect:</h4>
-         <p>The basic implementation is just like the other effects above, where there is a CCompression class, and within that class is a Process() function with the same parameters. The only thing the function does is check if the input frame has a frequency that is higher than the threshold. If it was, it would calculate a new gain by first finding the percentage of thresholdN by the input frame. Then put that percentage by the power of the ratio to find the new gain. If the frequency was below the threshold, the gain would be set to 1. The output would be created by multiplying the input frame by the gain. 
+         <p>The basic implementation is just like the other effects above, where there is a CCompression class, and within that class is a Process() function with the same parameters. The Process() function checks if the input frame has a frequency that is higher than the threshold. If it was, it would calculate a new gain by first finding the percentage of thresholdN by the input frame. Then put that percentage by the power of the ratio to find the new gain. If the frequency was below the threshold, the gain would be set to 1. The output would be created by multiplying the input frame by the gain. 
 </p>
 
         <!-- Noise Gate Effect -->
          <h4>Noise Gate Effect:</h4>
-         <p>This effect was implemented just like the compression effect. Similarly, there is a CNoiseGate class with a Process() function. It would also have an if statement, but it would instead check if the input frame is below a certain frequency. If it was, it would just set the gain to 0, and 1 if not. The output is created the same way, where the input frame is multiplied by the gain.   
+         <p>This effect was implemented just like the compression effect. Similarly, there is a CNoiseGate class with a Process() function. It would also have an if statement, but it would instead check if the input frame is below a certain threshold. If it was, it would just set the gain to 0, and 1 if not. The output is created the same way, where the input frame is multiplied by the gain.   
 </p>
 
         <hr>
